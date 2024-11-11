@@ -1,4 +1,4 @@
-# from django import forms
+from django import forms
 
 class Companyform(forms.Form):
     company_name = forms.CharField()
